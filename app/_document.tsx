@@ -8,6 +8,14 @@ export default function Document() {
         <meta name="robots" content="index, follow" />
 
         {/* GTM in <head> */}
+        <link
+          rel="preload"
+          href="/fonts/your-font.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      
         <script
           dangerouslySetInnerHTML={{
             __html: `

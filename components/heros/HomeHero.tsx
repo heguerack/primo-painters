@@ -13,14 +13,17 @@ const HomeHero = () => {
       <section className="relative h-[600px] md:h-[850px] lg:h-[900px]">
         <HeroPhoneMobile />
         <div className="relative h-[calc(100vh-50px)]">
+         {/* <div className="relative h-full w-full"> */}
           <Image
             src={HeroHomeImg.src}
             alt={HeroHomeImg.alt}
             fill
-            className="object-cover brightness-75 w-full h-full"
+            className="object-cover brightness-75 w-full h-auto"
             priority
+            //sizes="100vw"
           />
-          <div className="absolute inset-0 bg-black/20" />
+
+          <div className="absolute inset-0 bg-black/20"></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               EXPERT <span className="bg-reveal">CALGARY PAINTERS</span>
