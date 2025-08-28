@@ -1,7 +1,9 @@
 .back-img {
   /* margin-top: 3rem; */
-  background: url("../../public/HomeBannerBG.webp") no-repeat center
-    center/cover;
+  /* background: url("../../public/HomeBannerBG.webp") no-repeat center
+    center/cover; */
+     position: relative;
+  overflow: hidden;
 }
 
 .back-img::before {
