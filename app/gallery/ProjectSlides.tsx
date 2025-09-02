@@ -15,6 +15,7 @@ export default function ProjectSlides({ images }: ProjectSlidesProps) {
             className='object-cover'
             fill
             sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
+            width={400} height={300} priority
           />
         </div>
       ))}
