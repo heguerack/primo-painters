@@ -7,6 +7,9 @@ import { Navbar } from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollingBanner from "@/components/scrolling-banner";
 import Script from "next/script";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({ subsets: ["latin"], weight: ["400", "700"] });
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -211,7 +214,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${roboto.className} antialiased`}
       >
         <noscript>
           <iframe

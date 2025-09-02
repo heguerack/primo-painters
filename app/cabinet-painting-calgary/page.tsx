@@ -58,7 +58,7 @@ export default function cabinetPaintingPage() {
       {/* Background Image Section */}
       <div className="relative">
         <div className="absolute top-[-100px] z-[-2]">
-          <Image src={BgBackground2} alt="bg-Image" />
+          <Image src={BgBackground2} alt="bg-Image"width={400} height={300} priority />
         </div>
       </div>
 
@@ -76,6 +76,7 @@ export default function cabinetPaintingPage() {
               alt={ServicescabinetPaintingImg.alt}
               fill
               className="md:object-cover sm:object-contain"
+              width={400} height={300}
               priority
             />
           </div>
@@ -132,6 +133,7 @@ export default function cabinetPaintingPage() {
             alt="Elegant interior with staircase"
             fill
             className="max-sm:pr-[20px] object-cover lg:absolute  "
+            width={400} height={300} priority
           />
         </div>
 

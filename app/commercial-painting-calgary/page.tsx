@@ -48,7 +48,7 @@ export default function commercialPaintingCalgary() {
       {/* Background Image Section */}
       <div className="relative">
         <div className="absolute top-[-100px] z-[-2]">
-          <Image src={BgBackground2} alt="bg-Image" />
+          <Image src={BgBackground2} alt="bg-Image"width={400} height={300} priority />
         </div>
       </div>
 
@@ -117,6 +117,7 @@ export default function commercialPaintingCalgary() {
             alt="commercial painting companies"
             fill
             className="max-sm:pr-[20px] object-cover lg:absolute  "
+            width={400} height={300} priority
           />
         </div>
 
