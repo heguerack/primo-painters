@@ -16,9 +16,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Blogs | Alberta Colour Painting – Calgary Painting Tips & Trends",
+  title: "Blogs | Primo Painters – Calgary Painting Tips & Trends",
   description:
-    "Discover expert painting tips, colour trends, and home improvement ideas from Alberta Colour Painting—your Calgary painting professionals.",
+    "Discover expert painting tips, colour trends, and home improvement ideas from Primo Painters — your Calgary painting professionals.",
   keywords: [
     "calgary painters",
     "painting companies calgary",
@@ -31,19 +31,19 @@ export const metadata: Metadata = {
     "alberta painting contractors calgary",
   ],
   alternates: {
-    canonical: "https://www.albertacolourpainting.com/blogs",
+    canonical: "https://www.primopainters.ca/blogs",
   },
   openGraph: {
     title: "Need Calgary Painters?",
     description:
-      "Book your free estimate today with Alberta Colour Painting, the top-rated painting company in Calgary.",
+      "Book your free estimate today with Primo Painters, the top-rated painting company in Calgary.",
     images: [
       {
         url: "https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672799089/home/awards/best-of-the-best-award-homestars-winner-2022-white-version_psaofg.webp",
       },
     ],
-    url: "https://www.albertacolourpainting.com",
-    siteName: "Alberta Colour Painting",
+    url: "https://www.primopainters.ca",
+    siteName: "Primo Painters",
     type: "website",
   },
 };

@@ -5,7 +5,7 @@ export const viewport: Viewport = {
   initialScale: 1.0,
 };
 export const metadata: Metadata = {
-  title: "Book Painting Services | Alberta Colour Painting Calgary",
+  title: "Book Painting Services | Primo Painters",
   description:
     "Book your professional interior or exterior painting service in Calgary with Alberta Colour Painting. Easy scheduling and expert results.",
   keywords: [
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
     "alberta painting contractors calgary",
   ],
   alternates: {
-    canonical: "https://www.albertacolourpainting.com/booking",
+    canonical: "https://www.primopainters.ca/booking",
   },
   openGraph: {
     title: "Need Calgary Painters?",
     description:
-      "Book your free estimate today with Alberta Colour Painting, the top-rated painting company in Calgary.",
+      "Book your free estimate today with Primo Painters, the top-rated painting company in Calgary.",
     images: [
       {
         url: "https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672799089/home/awards/best-of-the-best-award-homestars-winner-2022-white-version_psaofg.webp",
       },
     ],
-    url: "https://www.albertacolourpainting.com",
-    siteName: "Alberta Colour Painting",
+    url: "https://www.primopainters.ca",
+    siteName: "Primo Painters",
     type: "website",
   },
 };

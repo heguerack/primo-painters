@@ -45,7 +45,7 @@ const SpecialOfferWrapper = () => {
                   </div>
                   <div className=" absolute bottom-6 left-0 right-0 ">
                     <p className="text-white bg-[rgba(13,55,141,0.24)] backdrop-blur-[7.85px] p-4">
-                      Offer Starts from Oct 30, 2025. You must call for this
+                      Offer Starts from May 4, 2026. You must call for this
                       offer.
                     </p>
                     <p className="text-white p-4">
@@ -68,11 +68,11 @@ const SpecialOfferWrapper = () => {
                   </div>
                   <div className="offer-card-content absolute bottom-0 left-0 right-0  ">
                     <p className="text-white bg-[rgba(13,55,141,0.24)] backdrop-blur-[7.85px] p-4">
-                      Offer Starts from Oct 30, 2025. You must call for this
+                      Offer Starts from May 4, 2026. You must call for this
                       offer.
                     </p>
                     <p className="text-white">
-                      Pay for one bedroom, get the second one half price!
+                      Pay for one bedroom, get the second one for free!
                     </p>
                   </div>
                 </div>
@@ -87,11 +87,11 @@ const SpecialOfferWrapper = () => {
                     fill
                   />
                   <div className="ribbon absolute  bg-red-500 text-white p-2">
-                    <p>20% Off on Interior</p>
+                    <p>15% Off on Ceiling Painting</p>
                   </div>
                   <div className=" absolute bottom-6 left-0 right-0 ">
                     <p className="text-white bg-[rgba(13,55,141,0.24)] backdrop-blur-[7.85px] p-4">
-                      Offer Starts from Oct 30, 2025. You must call for this
+                      Offer Starts from May 4, 2026. You must call for this
                       offer.
                     </p>
                     <p className="text-white p-4">
@@ -100,29 +100,8 @@ const SpecialOfferWrapper = () => {
                   </div>
                 </div>
               </CarouselItem>
-              {/* Slide 4 */}
-              <CarouselItem className=" lg:basis-1/2 w-full pl-8 ">
-                <div className="border-2 border-white relative h-[30rem] lg:h-[40rem]  w-full">
-                  <Image
-                    src="/special-Offer-2.webp"
-                    className="absolute object-cover"
-                    alt="Offer 4"
-                    fill
-                  />
-                  <div className="ribbon absolute  bg-red-500 text-white p-2">
-                    <p>2 for 1 Deal</p>
-                  </div>
-                  <div className="offer-card-content absolute bottom-0 left-0 right-0 ">
-                    <p className="text-white bg-[rgba(13,55,141,0.24)] backdrop-blur-[7.85px] p-4">
-                      Offer Starts from Oct 30, 2025. You must call for this
-                      offer.
-                    </p>
-                    <p className="text-white">
-                      Pay for one bedroom, get the second one half price!
-                    </p>
-                  </div>
-                </div>
-              </CarouselItem>
+            
+           
             </CarouselContent>
             <CarouselPrevious className="absolute z-10 -left-3 top-1/2 transform -translate-y-1/2 w-10 h-10 text-white bg-black/40 rounded-full flex items-center justify-center hover:bg-black/60 transition cursor-pointer" />
 
@@ -131,12 +110,11 @@ const SpecialOfferWrapper = () => {
           {/* Text content section */}
           <div className="w-full lg:w-2/5 pr-5 flex flex-col justify-center ">
             <p className=" lg:text-xl  text-[20px]  mb-5">
-              For a limited time, Alberta Colour Painting is offering exclusive
+              For a limited time, Primo Painters is offering exclusive
               discounts to help you refresh your space at an unbeatable price!
             </p>
             <p className="text-[14px] lg:text-[16px] font-light">
-              Discover a variety of discounts and special deals at Alberta
-              Colour Painting, tailored to help you save on your Calgary house
+              Discover a variety of discounts and special deals at Primo Painters, tailored to help you save on your Calgary house
               painting projects throughout the year. Explore ongoing promotions
               for both standard and specialty wall painting services, and ensure
               you get the best value by visiting our offers page.

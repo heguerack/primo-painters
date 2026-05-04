@@ -51,7 +51,7 @@ export default function Footer() {
               <Link href="/">
                 <Image
                   src={logo}
-                  alt="Alberta Colour Painting Logo"
+                  alt="Primo Painters Logo"
                   width={180}
                   height={60}
                   className="object-contain"
@@ -59,7 +59,7 @@ export default function Footer() {
               </Link>
               {/* </div> */}
               <p className="text-sm text-white leading-relaxed mt-10">
-                {`We offer professional painting and renovation services across Alberta. From interior and exterior painting to full-scale home upgrades, we bring quality craftsmanship, attention to detail, and reliable service to every project.`}
+                We offer professional exterior and interior painting services in Calgary and surroundings. 
               </p>
             </div>
 
@@ -101,8 +101,8 @@ export default function Footer() {
               <div className="space-y-5 ">
                 <div className="flex items-center gap-2 text-white cursor-pointer">
                   <Link
-                    href="tel:+587-466-6647"
-                    aria-label="Call Alberta Global Painting at 587-466-6647"
+                    href="tel:+587-966-6547"
+                    aria-label="Primo Painters at 587-966-6547"
                   >
                     <svg
                       width="19"
@@ -125,14 +125,14 @@ export default function Footer() {
                       />
                     </svg>
                   </Link>
-                  <Link href="tel:+1(587)998-9547">
+                  <Link href="tel:+1(587)966-6547">
                     <span className="font-[500]">+1 587-966-6547</span>
                   </Link>
                 </div>
                 <div className="flex items-center gap-2 text-wrap break-all text-white  cursor-pointer ">
                   <Link
-                    href="mailto:info@albertaglobalpainting.com"
-                    aria-label="Mail Alberta Global Painting at info@albertaglobalpainting.com"
+                    href="mailto:info@primopainters.ca"
+                    aria-label="Mail Primo Painters at info@primopainters.ca"
                   >
                     <svg
                       width="21"
@@ -147,9 +147,9 @@ export default function Footer() {
                       />
                     </svg>
                   </Link>
-                  <Link href="mailto:info@albertacolourpainting.com">
+                  <Link href="mailto:info@primopainters.ca">
                     <span className="font-[500]">
-                      info@albertacolourpainting.com
+                      info@primopainters.ca
                     </span>
                   </Link>
                 </div>
@@ -171,26 +171,26 @@ export default function Footer() {
                     </div>
 
                     <span className="font-[500]">
-                      370 Brightmotive Green SE, Calgary, AB T2Z 0H1, Canada
+                      370 Brightonstone Green SE, Calgary, AB T2Z 0H1, Canada
                     </span>
                   </div>
                 </Link>
                 <div className="flex flex-row gap-5 mt-2">
                   <Link
-                    href="https://www.instagram.com/albertacolourpainting/"
-                    aria-label="Visit Alberta Colour Painting on Instagram"
+                    href="https://www.instagram.com/primopainters/"
+                    aria-label="Visit Primo Painters on Instagram"
                   >
                     <Instagram className="text-[#0D378D] text-2xl" />
                   </Link>
                   <Link
-                    href="https://www.facebook.com/albertacolourpainting"
-                    aria-label="Visit Alberta Colour Painting on Facebook"
+                    href="https://www.facebook.com/primopainters"
+                    aria-label="Visit Primo Painters on Facebook"
                   >
                     <Facebook className="text-[#0D378D] text-2xl" />
                   </Link>
                   <Link
-                    href="https://www.youtube.com/@albertacolourpainting"
-                    aria-label="Visit Alberta Colour Painting on YouTube"
+                    href="https://www.youtube.com/@primopainters"
+                    aria-label="Visit Primo Painters on YouTube"
                   >
                     <Youtube className="text-[#0D378D] text-2xl" />
                   </Link>
@@ -200,20 +200,7 @@ export default function Footer() {
           </div>
           <div className="border-t  mt-8 pt-4 text-center text-xs text-gray-700">
             <p className="text-white">
-              © 2025 Alberta Colour Painting. Powered by{" "}
-              <Link
-                href="https://cyberace.ca/"
-                className="text-white text-[14px] font-bold"
-              >
-                Cyber Ace.
-              </Link>
-              <span className="px-2">and</span>
-              <Link
-                href="https://cyberace.ca/"
-                className="text-white text-[14px] font-bold"
-              >
-                FDM
-              </Link>
+              © 2026 Primo Painters. 
             </p>
           </div>
         </div>

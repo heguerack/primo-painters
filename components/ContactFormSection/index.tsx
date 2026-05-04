@@ -21,7 +21,7 @@ const validationSchema = Yup.object({
     .required("Email is required"),
   phone: Yup.string()
     .required(" Phone No is required")
-    .matches(/^\+1\s?[0-9]{10,15}$/, "Phone number must be 15 digits")
+    .matches(/^\+1\s?[0-9]{10,15}$/, "Phone number must be 11 digits")
     .nullable(),
   message: Yup.string().required("Message is required"),
 });
@@ -78,7 +78,7 @@ const ContactFormSection = () => {
           <p className="text-muted-foreground mb-4 text-black">
             Get in touch with our{" "}
             <a
-              href="https://www.albertacolourpainting.com/"
+              href="https://www.primopainters.ca/"
               className="text-blue"
             >
               expert painters in Calgary

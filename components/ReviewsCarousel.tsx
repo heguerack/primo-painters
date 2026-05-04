@@ -24,7 +24,7 @@ const ReviewsCarousel = ({
         isButton={true}
       />
       <p className="container max-w-7xl mx-auto px-4 text-black py-5">
-        See why Alberta Colour Painting is a trusted choice for professional
+        See why Primo Painters is a trusted choice for professional
         painting in Calgary. Our happy customers share their experiences,
         praising our quality work and great service. From detailed interior
         painting to full exterior projects, these testimonials show the skill

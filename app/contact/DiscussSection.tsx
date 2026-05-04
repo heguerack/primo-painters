@@ -50,8 +50,8 @@ const DiscussSection = () => {
           </div>
           <h3 className="text-[#000000] md:text-4xl sm:text-[20px] font-medium cursor-pointer">
             <Link
-              href="mailto:info@albertaglobalpainting.com"
-              aria-label="Mail Alberta Global Painting at info@albertaglobalpainting.com"
+              href="mailto:primopainters.ca"
+              aria-label="Mail Alberta Global Painting at primopainters.ca"
             >
               EMAIL US
             </Link>

@@ -17,6 +17,7 @@ import GallerySection from "@/components/gallery/GallerySection";
 import SpecialOfferWrapper from "@/components/SpecialOfferWrapper";
 import FaqSection from "@/components/Faq";
 import { blogPosts } from "@/lib/blog-data";
+import { fakeReviews } from "@/data/fakeGoolgeReviews";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
     "alberta painting contractors calgary",
   ],
   alternates: {
-    canonical: "https://www.albertacolourpainting.com",
+    canonical: "https://www.primopainters.ca",
   },
   robots: {
     index: true,
@@ -47,26 +48,28 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Need Calgary Painters?",
     description:
-      "Book your free estimate today with Alberta Colour Painting, the top-rated painting company in Calgary.",
+      "Book your free estimate today with Primo Painters, the top-rated painting company in Calgary.",
     images: [
       {
         url: "https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672799089/home/awards/best-of-the-best-award-homestars-winner-2022-white-version_psaofg.webp",
       },
     ],
-    url: "https://www.albertacolourpainting.com",
-    siteName: "Alberta Colour Painting",
+    url: "https://www.primopainters.ca",
+    siteName: "Primo painters",
     type: "website",
   },
 };
 
 export default async function Home() {
-  const res = await fetch(process.env.GOOGLE_REVIEWS_URL!, {
-    next: { revalidate: 604800 }, //Oncde a week week <==
-  });
-  let newestGoogleReviews;
-  const data = await res.json();
-  const allGoogleReviews: ReviewsGoogleType = await data.result?.reviews;
-  newestGoogleReviews = allGoogleReviews.slice(0, 6);
+  // const res = await fetch(process.env.GOOGLE_REVIEWS_URL!, {
+  //   next: { revalidate: 604800 }, //Oncde a week week <==
+  // });
+  // let newestGoogleReviews;
+  // const data = await res.json();
+  // const allGoogleReviews: ReviewsGoogleType = await data.result?.reviews;
+  // newestGoogleReviews = allGoogleReviews.slice(0, 6);
+ 
+  let newestGoogleReviews = fakeReviews.slice(0, 6);
 
   return (
     <>

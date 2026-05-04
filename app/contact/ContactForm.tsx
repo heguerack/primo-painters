@@ -25,7 +25,7 @@ const validationSchema = Yup.object({
     .required('Email is required'),
   phone: Yup.string()
     .required('Phone number is required')
-    .matches(/^\+1\s?[0-9]{10,15}$/, 'Phone number must be 15 digits')
+    .matches(/^\+1\s?[0-9]{10,15}$/, 'Phone number must be 11 digits')
     .nullable(),
   message: Yup.string().required('Message is required'),
 })
@@ -101,12 +101,12 @@ const ContactForm = () => {
             className='text-base mb-6 text-black flex flex-row items-center'
             style={{ fontWeight: '500' }}>
             <span className='mr-2'>
-              <Link href='mailto:example@example.com'>
+              <Link href='mailto:info@primopainters.ca'>
                 <Image src={email} alt='email' />
               </Link>
             </span>
-            <Link href='mailto:info@albertacolourpainting.com'>
-              info@albertacolourpainting.com
+            <Link href='mailto:info@primopainters.ca'>
+              info@primopainters.ca
             </Link>
           </p>
           <p

@@ -29,7 +29,7 @@ export default function FinestPaintersSection() {
           <p className=" text-black z-20">
             Our skilled{" "}
             <a
-              href="https://www.albertacolourpainting.com/"
+              href="https://www.primopainters.ca/"
               className="text-blue"
             >
               Calgary painters

@@ -20,7 +20,7 @@ export default function EcofriendlySection() {
             </h2>
           </div>
           <p className=" text-black">
-            At Alberta Colour, we're committed to making a positive impact on
+            At Primo Painters, we're committed to making a positive impact on
             the environment. That's why we use zero to low-VOC paints, creating
             healthier spaces for our clients, painters, and the planet!
           </p>
@@ -42,7 +42,7 @@ export default function EcofriendlySection() {
 
           <div className="pt-4">
             <p className="lg:text-[20px] text-[18px] text-black">
-              By choosing Alberta Colour Painting, you making an eco-friendly
+              By choosing Primo Painters, you are making an eco-friendly
               choice that benefits your home and the planet.
             </p>
           </div>

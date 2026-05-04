@@ -17,7 +17,7 @@ export default function AboutusHome() {
         {/* Left side with image */}
         <div className="relative w-full lg:w-[50%]">
           <div className="absolute top-10 left-0 z-50 bg-blue-900 text-white py-3 px-4">
-            <p className="text-[16px] font-semibold">10 Years of Experience</p>
+            <p className="text-[16px] font-semibold">Over 10 Years of Experience</p>
           </div>
           <Image
             src={AboutUsImg.src}
@@ -37,7 +37,7 @@ export default function AboutusHome() {
           </p>
           <p className="text-black mb-6 text-[14px] lg:text-[16px]">
             Anyone can paint walls, but only the finest painters understand that
-            every single stroke of colour matters. At Alberta Colour Painting,
+            every single stroke of colour matters. At Primo Painters,
             thats exactly what we do. With years of expertise in creating
             stunning spaces, we are your trusted partners for professional
             interior and exterior painting services. Our team has the finest

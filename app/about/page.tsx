@@ -22,23 +22,23 @@ export const viewport: Viewport = {
   initialScale: 1.0,
 };
 export const metadata: Metadata = {
-  title: "About Alberta Colour Painting: Your Trusted Calgary Painting Company",
+  title: "About Primo Painters: Your Trusted Calgary Painting Company",
   description:
     "Our expert painters deliver top-quality interior, exterior & wallpaper removal services for your home or business. We've got all your painting needs covered.",
   alternates: {
-    canonical: "https://www.albertacolourpainting.com/about",
+    canonical: "https://www.primopainters.ca/about",
   },
   openGraph: {
     title: "Need Calgary Painters?",
     description:
-      "Book your free estimate today with Alberta Colour Painting, the top-rated painting company in Calgary.",
+      "Book your free estimate today with Primo Painters, the top-rated painting company in Calgary.",
     images: [
       {
         url: "https://res.cloudinary.com/alberta-colour-painting/image/upload/v1672799089/home/awards/best-of-the-best-award-homestars-winner-2022-white-version_psaofg.webp",
       },
     ],
-    url: "https://www.albertacolourpainting.com/about",
-    siteName: "Alberta Colour Painting",
+    url: "https://www.primopainters.ca/about",
+    siteName: "Primo Painters",
     type: "website",
   },
 };
@@ -48,7 +48,7 @@ export default function page() {
     <main>
       <StandardHero
         title="About  "
-        title2="Alberta Colour Painting"
+        title2="Primo Painters"
         // subtitle='Your Trusted, Skilled, and Eco-Friendly Painting Experts'
         subtitle="Bringing Colour to Calgary with Flawless Paint Jobs! "
         imageSrc={blogsBanner}

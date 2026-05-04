@@ -1,3 +1,12 @@
+export type GoogleReviewType ={
+  author_name: string
+  profile_photo_url?: string
+  rating: number
+  text: string
+  time: number
+}
+
+
 export type SingleReviewGoogleType = {
   author_name: string
   author_url?: string
@@ -19,3 +28,4 @@ export type SingleReviewHomestarsType = {
 }
 
 export type ReviewsHomestarsType = SingleReviewHomestarsType[]
+

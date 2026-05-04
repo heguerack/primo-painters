@@ -40,14 +40,14 @@ export default function AboutusHome() {
             TRUSTED BY LOCALS
           </p>
           <p className="text-black mb-6 text-[14px] lg:text-[16px]">
-            {`We started with a vision that something as simple as a paint job should be nothing short of extraordinary. Because the space you live or work in should reflect your vibe. And just "okay" doesn't cut it. Rookies can’t give you that same touch of perfection that only experience can bring. That's why, at Alberta Colour Painting, we take pride in our team of expert Calgary painters with years of hands-on experience handling projects of every size and style.`}
+            We started with a vision that something as simple as a paint job should be nothing short of extraordinary. Because the space you live or work in should reflect your vibe. And just "okay" doesn't cut it. Rookies can't  give you that same touch of perfection that only experience can bring. That's why, at Alberta Colour Painting, we take pride in our team of expert Calgary painters with years of hands-on experience handling projects of every size and style.
           </p>
 
           <p className="text-black mb-6 text-[14px] lg:text-[16px]">
-            {`Our mission is simple: We don’t treat walls like walls, we treat them like canvases. Every stroke we make is intentional, every colour choice is meaningful, and every result? A reflection of your style brought to life. With years of experience and expertise, we offer a wide range of painting services in Calgary for both interior and exterior spaces, turning them into eye-catching standouts.`}
+          Our mission is simple: We don't treat walls like walls, we treat them like canvases. Every stroke we make is intentional, every colour choice is meaningful, and every result? A reflection of your style brought to life. With years of experience and expertise, we offer a wide range of painting services in Calgary for both interior and exterior spaces, turning them into eye-catching standouts.
           </p>
           <p className="text-black mb-6 text-[14px] lg:text-[16px]">
-            {`Bonus? We're one of the few licensed and certified painting companies in Calgary. So when you hire us, you're not just getting paint, you’re getting pro results that make people say "Whoa, who did this? `}
+            Bonus? We're one of the few licensed and certified painting companies in Calgary. So when you hire us, you're not just getting paint, you're getting pro results that make people say - Whoa, who did this? 
           </p>
 
           {/* <button className="learn-more-button">Learn More</button> */}

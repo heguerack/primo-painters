@@ -3,7 +3,7 @@ import TrustBadges from "../trust-badges";
 import HeroPhoneMobile from "./HeroPhoneMobile";
 import Image from "next/image";
 
-import "./hero.css";
+// import "./hero.css";
 import HeroCallToAction from "./HeroCallToAction";
 import { HeroHomeImg } from "@/data/images";
 

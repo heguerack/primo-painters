@@ -147,7 +147,7 @@ export default function RootLayout({
             telephone: "+1 587-966-6547",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "370 Brightmotive Green SE",
+              streetAddress: "370 Brightonstone Green SE",
               addressLocality: "Calgary",
               addressRegion: "AB",
               postalCode: "T2Z 0H1",
@@ -180,10 +180,10 @@ export default function RootLayout({
               },
             ],
             sameAs: [
-              "https://www.facebook.com/albertacolourpainting",
-              "https://www.instagram.com/albertacolourpainting/",
-              "https://www.youtube.com/@albertacolourpainting",
-              "https://ca.linkedin.com/in/albertacolourpainting",
+              // "https://www.facebook.com/albertacolourpainting",
+              // "https://www.instagram.com/albertacolourpainting/",
+              // "https://www.youtube.com/@albertacolourpainting",
+              // "https://ca.linkedin.com/in/albertacolourpainting",
             ],
           }),
         }}
