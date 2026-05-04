@@ -6,7 +6,7 @@
 
 git checkout frank_dev
 git add .
-git commit -m "message here"
+git commit -m "caved 2 files, cheking redeploy issue"
 
 If you're already committed, skip this part.
 
@@ -25,3 +25,8 @@ git checkout frank_dev
 this is when pulling updated main branch first
 git checkout main  
 git pull origin main
+
+
+###
+git config --global user.email "heguer76@gmail.com"
+git config --global user.name "heguerack"
